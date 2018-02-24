@@ -1,0 +1,260 @@
+
+body {
+    margin: 0;
+    display: block;
+}
+.menu > .links {
+    float: right;
+    padding: 30px 20px 0px 0px;
+}
+.menu > .links .link {
+    display: inline;
+    margin-right: 15px;
+}
+.menu > .links .link a {
+    color: #ffffff;
+    font-size: 11px;  
+}
+.menu > .links .link a:link {
+    text-decoration: none;
+}
+.menu > .links .link a:hover {
+    text-decoration: underline;
+}
+.logo img { 
+    clear: both;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 40px 0px 0px 165px;
+}
+.top {
+    box-sizing: border-box;
+}
+.head_photo {
+    background-image: url(Panoramic.jpg);
+    background-size: cover;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+.rubrik {
+    clear: both;
+    color: #fff;
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 100px;
+}
+.under_rubrik {
+    color: #fff;
+    text-align: center;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    text-decoration-style: wavy;
+    padding-top: 10px;
+}
+.about_us {
+    text-align: center;
+    width: 100%;
+    background-color: #46aaaa;
+    height: auto;
+    
+}
+.about_us  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.about_us span {
+    color: #636666;
+}
+.photos img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.photos > span {
+    font-weight: 500;
+}
+.photos {
+    text-align: center;
+    padding: 5px;
+}
+.social {
+    clear: both;
+    height: auto;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.social img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    border: solid 2px;
+    box-shadow: 2px 2px 4px #4913c9;
+}
+.social > .row > ul {
+    text-align: center;
+}
+.social > .row > ul > li {
+    display: inline;
+}
+.social > .row > ul > .soc {
+    list-style-type:none;
+}
+.face1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.contact {
+    clear: both;
+    padding-top: 10px;
+    background-color: #c24277;
+    height: auto;
+    padding-bottom: 30px;
+}
+.contact .line1, .line2 {
+    text-align: center;
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    color: #ffffff;
+}
+.contact .line1 {
+    padding-top: 25px;
+}
+.form {
+    float: left;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+.con {
+    padding-top: 5px;
+}
+.con .contact_input {
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+}
+.contact_input {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.con .text_input {
+    width: 300px;
+    height: 100px;
+    border-radius: 4px;
+    border-style: none;
+}
+.text_input {
+    font-size: 20px;
+    padding-left: 10px;
+}
+textarea {
+    outline: none;
+    resize: none;
+}
+.con .button_send {
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #2e3035;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#map {
+    width:250px;
+    height:190px;
+    background:yellow;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mapclass {
+    color: #FFFFFF;
+    width: 250px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bottom {
+    background-color: #2e3035;
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo2 img { 
+    clear: both;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.foot > .links {
+    text-align: center;
+}
+.foot > .links .link {
+    display: inline;
+    margin-right: 15px;
+}
+.foot > .links .link a {
+    color: #ffffff;
+    font-size: 10px;  
+}
+.foot > .links .link a:link {
+    text-decoration: none;
+}
+.foot > .links .link a:hover {
+    text-decoration: underline;
+}
+.copy {
+    padding: 15px;
+    width: 100%;
+    height: 60px ;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
