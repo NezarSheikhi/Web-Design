@@ -5,7 +5,7 @@ body {
 }
 .menu > .links {
     float: right;
-    padding: 30px 20px 0px 0px;
+    padding: 30px 50px 0px 0px;
 }
 .menu > .links .link {
     display: inline;
@@ -27,7 +27,7 @@ body {
     width: 25px;
     height: 25px;
     float: left;
-    margin: 40px 0px 0px 165px;
+    margin: 40px 0px 0px 185px;
 }
 .top {
     box-sizing: border-box;
@@ -99,6 +99,7 @@ body {
 }
 .social > .row > ul {
     text-align: center;
+    padding-right: 40px;
 }
 .social > .row > ul > li {
     display: inline;
