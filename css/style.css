@@ -33,7 +33,7 @@ body {
     box-sizing: border-box;
 }
 .head_photo {
-    background-image: url(Panoramic.jpg);
+    background-image: url(../pic/Panoramic.jpg);
     background-size: cover;
     top: 0;
     left:0;
